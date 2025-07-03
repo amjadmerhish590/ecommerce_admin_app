@@ -11,13 +11,12 @@ class MyServices extends GetxService {
     Platform.isAndroid
         ? await Firebase.initializeApp(
             options: const FirebaseOptions(
-              apiKey: "YOUR_API_KEY", // 🔐 Replace with your actual Firebase API key
-              appId: "YOUR_APP_ID", // 📱 Firebase App ID for Android
-              messagingSenderId: "YOUR_MESSAGING_SENDER_ID", // 💬 Firebase Cloud Messaging sender ID
-              projectId: "YOUR_PROJECT_ID", // 📁 Firebase project ID
-            ),
-    )
-        : await Firebase.initializeApp(); // iOS setup handled by GoogleService-Info.plist
+                apiKey: "AIzaSyBj-cpsmJF5mrcV-ZTgXVjcbicRzqP79O0",
+                appId: "1:377554823881:android:e29e89a28cfa65201abb18",
+                messagingSenderId: "377554823881",
+                projectId: "bmwamjad-56228"),
+          )
+        : await Firebase.initializeApp();
     sharedPreferences = await SharedPreferences.getInstance();
     return this;
   }

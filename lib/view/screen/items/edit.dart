@@ -77,7 +77,7 @@ class ItemsEdit extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 20),
                     child: MaterialButton(
                       color: AppColor.thirdColor,
-                      textColor: AppColor.secondColor,
+                      textColor: AppColor.fourthColor,
                       onPressed: (){
                         controller.showOptionImage();
                       }, child: const Text("Choose Item image"),)),

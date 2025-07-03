@@ -38,7 +38,7 @@ class CategoriesEdit extends StatelessWidget {
 
                     child: MaterialButton(
                       color: AppColor.thirdColor,
-                      textColor: AppColor.secondColor,
+                      textColor: AppColor.fourthColor,
                       onPressed: (){
                         controller.chooseImage();
                       }, child: const Text("Choose category image"),)),
