@@ -26,6 +26,7 @@ This app supports core functionalities like category and product management, emp
 - 👥 Employee Management:
     - View employees
     - Add new employees
+    - Delete employees
 - 📦 Order Management:
     - View orders waiting for approval
     - View approved orders
@@ -34,12 +35,12 @@ This app supports core functionalities like category and product management, emp
 
 ## 🧰 Technical Stack
 
-- **Flutter** (Cross-platform development)
-- **Firebase** (Notifications and shared services)
-- **GetX** (State management and dependency injection)
-- **SharedPreferences** (Persistent local storage)
-- **MySQL** (Backend database)
-- **PHP** (Backend API)
+- Flutter (Cross-platform development)
+- Firebase (Notifications and shared services)
+- GetX (State management and dependency injection)
+- SharedPreferences (Persistent local storage)
+- MySQL (Backend database)
+- PHP (Backend API)
 
 ## 🔐 Sensitive Configuration Handling
 
