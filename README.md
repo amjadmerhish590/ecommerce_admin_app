@@ -33,14 +33,6 @@ This app supports core functionalities like category and product management, emp
     - View archived orders
     - Order details and approval of available items
 
-## 🧰 Technical Stack
-
-- Flutter (Cross-platform development)
-- Firebase (Notifications and shared services)
-- GetX (State management and dependency injection)
-- SharedPreferences (Persistent local storage)
-- MySQL (Backend database)
-- PHP (Backend API)
 
 ## 🔐 Sensitive Configuration Handling
 
